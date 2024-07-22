@@ -148,6 +148,10 @@ dependencies {
     runtimeOnly fg.deobf("mezz.jei:jei-1.19.2-forge:11.4.0.286")
     runtimeOnly fg.deobf('curse.maven:configured-457570:4011355')
 
+    compileOnly 'net.java.dev.jna:jna:5.12.1'
+    compileOnly 'net.java.dev.jna:jna-platform:5.12.1'
+    compileOnly 'ca.weblite:java-objc-bridge:1.1'
+
     // The 'provided' configuration is for optional dependencies that exist at compile-time but might not at runtime.
     // provided 'com.mod-buildcraft:buildcraft:6.0.8:dev'
 
